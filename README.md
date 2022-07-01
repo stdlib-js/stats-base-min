@@ -30,32 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-min
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-min = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.min;
-})();
-</script>
+var min = require( '@stdlib/stats-base-min' );
 ```
 
 #### min( N, x, stride )
@@ -154,16 +152,11 @@ var v = min.ndarray( N, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var Float64Array = require( '@stdlib/array-float64' );
+var min = require( '@stdlib/stats-base-min' );
 
 var x;
 var i;
@@ -176,11 +169,6 @@ console.log( x );
 
 var v = min( x.length, x, 1 );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -269,6 +257,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-min/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-min/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-min/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-min/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-min/main/LICENSE
 
@@ -276,19 +265,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd
+[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd
+[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin
 
-[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max/tree/umd
+[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max
 
-[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin/tree/umd
+[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin
 
 <!-- </related-links> -->
 
