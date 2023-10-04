@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-min/tags). For example,
+
+```javascript
 import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@v0.1.1-esm/index.mjs';
 ```
 
@@ -156,7 +161,7 @@ var v = min.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@v0.1.1-esm/index.mjs';
+import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min@esm/index.mjs';
 
 var x;
 var i;
