@@ -282,13 +282,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin
-
 [@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max
 
 [@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin
-
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin
 
 <!-- </related-links> -->
 
