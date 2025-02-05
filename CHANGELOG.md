@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-02-05)
+
+<section class="features">
+
+### Features
+
+-   [`fbb31fb`](https://github.com/stdlib-js/stdlib/commit/fbb31fbaafbbbf233740a41a88a57f4db1cb427b) - add support for accessor arrays and refactor `stats/base/min` [(#5042)](https://github.com/stdlib-js/stdlib/pull/5042)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`fbb31fb`](https://github.com/stdlib-js/stdlib/commit/fbb31fbaafbbbf233740a41a88a57f4db1cb427b) - **feat:** add support for accessor arrays and refactor `stats/base/min` [(#5042)](https://github.com/stdlib-js/stdlib/pull/5042) _(by Aayush Khanna, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
